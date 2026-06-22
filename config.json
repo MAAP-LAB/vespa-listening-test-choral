@@ -1,472 +1,507 @@
 {
-  "task": "MUSHRA-style separation quality",
-  "scale": [
-    0,
-    100
-  ],
-  "rate_label": "Quality/naturalness vs reference",
-  "conditions_legend": {
-    "convtasnet": "ConvTasNet",
-    "sepformer": "SepFormer",
-    "tfgridnet": "TF-GridNet",
-    "anchor_mixture": "anchor (mixture)",
-    "reference": "hidden reference",
-    "vespa": "VESPA (ours)"
+ "task": "MUSHRA-style separation quality",
+ "scale": [
+  0,
+  100
+ ],
+ "rate_label": "Quality/naturalness vs reference",
+ "conditions_legend": {
+  "convtasnet": "ConvTasNet",
+  "sepformer": "SepFormer",
+  "tfgridnet": "TF-GridNet",
+  "anchor_mixture": "anchor (mixture)",
+  "reference": "hidden reference",
+  "vespa": "VESPA (512)",
+  "vespa_1024": "VESPA (1024)"
+ },
+ "items": [
+  {
+   "id": "ACS_p_C001_so_al_v1",
+   "voice_count": 2,
+   "dataset": "ACAPPELLASET",
+   "conditions": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ],
+   "reference": "reference",
+   "anchor": "anchor_mixture",
+   "rate": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ]
   },
-  "items": [
-    {
-      "id": "ACS_p_C001_so_al_v1",
-      "voice_count": 2,
-      "dataset": "ACAPPELLASET",
-      "conditions": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ],
-      "reference": "reference",
-      "anchor": "anchor_mixture",
-      "rate": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ]
-    },
-    {
-      "id": "ACS_p_C001_so_al_v2",
-      "voice_count": 2,
-      "dataset": "ACAPPELLASET",
-      "conditions": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ],
-      "reference": "reference",
-      "anchor": "anchor_mixture",
-      "rate": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ]
-    },
-    {
-      "id": "ACS_p_C001_so_te_v1",
-      "voice_count": 2,
-      "dataset": "ACAPPELLASET",
-      "conditions": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ],
-      "reference": "reference",
-      "anchor": "anchor_mixture",
-      "rate": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ]
-    },
-    {
-      "id": "ACS_p_C001_so_te_v2",
-      "voice_count": 2,
-      "dataset": "ACAPPELLASET",
-      "conditions": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ],
-      "reference": "reference",
-      "anchor": "anchor_mixture",
-      "rate": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ]
-    },
-    {
-      "id": "ACS_p_C001_so_al_te_v1",
-      "voice_count": 3,
-      "dataset": "ACAPPELLASET",
-      "conditions": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ],
-      "reference": "reference",
-      "anchor": "anchor_mixture",
-      "rate": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ]
-    },
-    {
-      "id": "ACS_p_C001_so_al_te_v2",
-      "voice_count": 3,
-      "dataset": "ACAPPELLASET",
-      "conditions": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ],
-      "reference": "reference",
-      "anchor": "anchor_mixture",
-      "rate": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ]
-    },
-    {
-      "id": "ACS_p_C001_so_al_te_v3",
-      "voice_count": 3,
-      "dataset": "ACAPPELLASET",
-      "conditions": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ],
-      "reference": "reference",
-      "anchor": "anchor_mixture",
-      "rate": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ]
-    },
-    {
-      "id": "ACS_p_C001_so_al_ba_v1",
-      "voice_count": 3,
-      "dataset": "ACAPPELLASET",
-      "conditions": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ],
-      "reference": "reference",
-      "anchor": "anchor_mixture",
-      "rate": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ]
-    },
-    {
-      "id": "ACS_p_C001_so_al_ba_v2",
-      "voice_count": 3,
-      "dataset": "ACAPPELLASET",
-      "conditions": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ],
-      "reference": "reference",
-      "anchor": "anchor_mixture",
-      "rate": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ]
-    },
-    {
-      "id": "ACS_p_C001_so_al_ba_v3",
-      "voice_count": 3,
-      "dataset": "ACAPPELLASET",
-      "conditions": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ],
-      "reference": "reference",
-      "anchor": "anchor_mixture",
-      "rate": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ]
-    },
-    {
-      "id": "LI_FullChoir_Take01_v1",
-      "voice_count": 3,
-      "dataset": "DCS",
-      "conditions": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet"
-      ],
-      "reference": "reference",
-      "anchor": "anchor_mixture",
-      "rate": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet"
-      ]
-    },
-    {
-      "id": "LI_FullChoir_Take01_v2",
-      "voice_count": 3,
-      "dataset": "DCS",
-      "conditions": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet"
-      ],
-      "reference": "reference",
-      "anchor": "anchor_mixture",
-      "rate": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet"
-      ]
-    },
-    {
-      "id": "LI_FullChoir_Take01_v3",
-      "voice_count": 3,
-      "dataset": "DCS",
-      "conditions": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet"
-      ],
-      "reference": "reference",
-      "anchor": "anchor_mixture",
-      "rate": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet"
-      ]
-    },
-    {
-      "id": "CSD_ER_mixed_52_v1",
-      "voice_count": 2,
-      "dataset": "CSD",
-      "conditions": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ],
-      "reference": "reference",
-      "anchor": "anchor_mixture",
-      "rate": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ]
-    },
-    {
-      "id": "CSD_ER_mixed_52_v2",
-      "voice_count": 2,
-      "dataset": "CSD",
-      "conditions": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ],
-      "reference": "reference",
-      "anchor": "anchor_mixture",
-      "rate": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ]
-    },
-    {
-      "id": "CSD_LI_mixed_51_v1",
-      "voice_count": 2,
-      "dataset": "CSD",
-      "conditions": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ],
-      "reference": "reference",
-      "anchor": "anchor_mixture",
-      "rate": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ]
-    },
-    {
-      "id": "CSD_LI_mixed_51_v2",
-      "voice_count": 2,
-      "dataset": "CSD",
-      "conditions": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ],
-      "reference": "reference",
-      "anchor": "anchor_mixture",
-      "rate": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ]
-    },
-    {
-      "id": "CSD_LI_mixed_49_v1",
-      "voice_count": 3,
-      "dataset": "CSD",
-      "conditions": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ],
-      "reference": "reference",
-      "anchor": "anchor_mixture",
-      "rate": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ]
-    },
-    {
-      "id": "CSD_LI_mixed_49_v2",
-      "voice_count": 3,
-      "dataset": "CSD",
-      "conditions": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ],
-      "reference": "reference",
-      "anchor": "anchor_mixture",
-      "rate": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ]
-    },
-    {
-      "id": "CSD_LI_mixed_49_v3",
-      "voice_count": 3,
-      "dataset": "CSD",
-      "conditions": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ],
-      "reference": "reference",
-      "anchor": "anchor_mixture",
-      "rate": [
-        "reference",
-        "anchor_mixture",
-        "convtasnet",
-        "sepformer",
-        "tfgridnet",
-        "vespa"
-      ]
-    }
-  ]
+  {
+   "id": "ACS_p_C001_so_al_v2",
+   "voice_count": 2,
+   "dataset": "ACAPPELLASET",
+   "conditions": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ],
+   "reference": "reference",
+   "anchor": "anchor_mixture",
+   "rate": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ]
+  },
+  {
+   "id": "ACS_p_C001_so_te_v1",
+   "voice_count": 2,
+   "dataset": "ACAPPELLASET",
+   "conditions": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ],
+   "reference": "reference",
+   "anchor": "anchor_mixture",
+   "rate": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ]
+  },
+  {
+   "id": "ACS_p_C001_so_te_v2",
+   "voice_count": 2,
+   "dataset": "ACAPPELLASET",
+   "conditions": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ],
+   "reference": "reference",
+   "anchor": "anchor_mixture",
+   "rate": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ]
+  },
+  {
+   "id": "ACS_p_C001_so_al_te_v1",
+   "voice_count": 3,
+   "dataset": "ACAPPELLASET",
+   "conditions": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ],
+   "reference": "reference",
+   "anchor": "anchor_mixture",
+   "rate": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ]
+  },
+  {
+   "id": "ACS_p_C001_so_al_te_v2",
+   "voice_count": 3,
+   "dataset": "ACAPPELLASET",
+   "conditions": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ],
+   "reference": "reference",
+   "anchor": "anchor_mixture",
+   "rate": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ]
+  },
+  {
+   "id": "ACS_p_C001_so_al_te_v3",
+   "voice_count": 3,
+   "dataset": "ACAPPELLASET",
+   "conditions": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ],
+   "reference": "reference",
+   "anchor": "anchor_mixture",
+   "rate": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ]
+  },
+  {
+   "id": "ACS_p_C001_so_al_ba_v1",
+   "voice_count": 3,
+   "dataset": "ACAPPELLASET",
+   "conditions": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ],
+   "reference": "reference",
+   "anchor": "anchor_mixture",
+   "rate": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ]
+  },
+  {
+   "id": "ACS_p_C001_so_al_ba_v2",
+   "voice_count": 3,
+   "dataset": "ACAPPELLASET",
+   "conditions": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ],
+   "reference": "reference",
+   "anchor": "anchor_mixture",
+   "rate": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ]
+  },
+  {
+   "id": "ACS_p_C001_so_al_ba_v3",
+   "voice_count": 3,
+   "dataset": "ACAPPELLASET",
+   "conditions": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ],
+   "reference": "reference",
+   "anchor": "anchor_mixture",
+   "rate": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ]
+  },
+  {
+   "id": "LI_FullChoir_Take01_v1",
+   "voice_count": 3,
+   "dataset": "DCS",
+   "conditions": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet"
+   ],
+   "reference": "reference",
+   "anchor": "anchor_mixture",
+   "rate": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet"
+   ]
+  },
+  {
+   "id": "LI_FullChoir_Take01_v2",
+   "voice_count": 3,
+   "dataset": "DCS",
+   "conditions": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet"
+   ],
+   "reference": "reference",
+   "anchor": "anchor_mixture",
+   "rate": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet"
+   ]
+  },
+  {
+   "id": "LI_FullChoir_Take01_v3",
+   "voice_count": 3,
+   "dataset": "DCS",
+   "conditions": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet"
+   ],
+   "reference": "reference",
+   "anchor": "anchor_mixture",
+   "rate": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet"
+   ]
+  },
+  {
+   "id": "CSD_ER_mixed_52_v1",
+   "voice_count": 2,
+   "dataset": "CSD",
+   "conditions": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ],
+   "reference": "reference",
+   "anchor": "anchor_mixture",
+   "rate": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ]
+  },
+  {
+   "id": "CSD_ER_mixed_52_v2",
+   "voice_count": 2,
+   "dataset": "CSD",
+   "conditions": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ],
+   "reference": "reference",
+   "anchor": "anchor_mixture",
+   "rate": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ]
+  },
+  {
+   "id": "CSD_LI_mixed_51_v1",
+   "voice_count": 2,
+   "dataset": "CSD",
+   "conditions": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ],
+   "reference": "reference",
+   "anchor": "anchor_mixture",
+   "rate": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ]
+  },
+  {
+   "id": "CSD_LI_mixed_51_v2",
+   "voice_count": 2,
+   "dataset": "CSD",
+   "conditions": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ],
+   "reference": "reference",
+   "anchor": "anchor_mixture",
+   "rate": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ]
+  },
+  {
+   "id": "CSD_LI_mixed_49_v1",
+   "voice_count": 3,
+   "dataset": "CSD",
+   "conditions": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ],
+   "reference": "reference",
+   "anchor": "anchor_mixture",
+   "rate": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ]
+  },
+  {
+   "id": "CSD_LI_mixed_49_v2",
+   "voice_count": 3,
+   "dataset": "CSD",
+   "conditions": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ],
+   "reference": "reference",
+   "anchor": "anchor_mixture",
+   "rate": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ]
+  },
+  {
+   "id": "CSD_LI_mixed_49_v3",
+   "voice_count": 3,
+   "dataset": "CSD",
+   "conditions": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ],
+   "reference": "reference",
+   "anchor": "anchor_mixture",
+   "rate": [
+    "reference",
+    "anchor_mixture",
+    "convtasnet",
+    "sepformer",
+    "tfgridnet",
+    "vespa",
+    "vespa_1024"
+   ]
+  }
+ ]
 }
