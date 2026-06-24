@@ -11,8 +11,7 @@
   "tfgridnet": "TF-GridNet",
   "anchor_mixture": "anchor (mixture)",
   "reference": "hidden reference",
-  "vespa": "VESPA (512)",
-  "vespa_1024": "VESPA (1024)"
+  "vespa": "VESPA (ours)"
  },
  "items": [
   {
@@ -25,8 +24,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ],
    "reference": "reference",
    "anchor": "anchor_mixture",
@@ -36,8 +34,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ]
   },
   {
@@ -50,8 +47,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ],
    "reference": "reference",
    "anchor": "anchor_mixture",
@@ -61,8 +57,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ]
   },
   {
@@ -75,8 +70,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ],
    "reference": "reference",
    "anchor": "anchor_mixture",
@@ -86,8 +80,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ]
   },
   {
@@ -100,8 +93,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ],
    "reference": "reference",
    "anchor": "anchor_mixture",
@@ -111,8 +103,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ]
   },
   {
@@ -125,8 +116,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ],
    "reference": "reference",
    "anchor": "anchor_mixture",
@@ -136,8 +126,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ]
   },
   {
@@ -150,8 +139,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ],
    "reference": "reference",
    "anchor": "anchor_mixture",
@@ -161,8 +149,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ]
   },
   {
@@ -175,8 +162,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ],
    "reference": "reference",
    "anchor": "anchor_mixture",
@@ -186,8 +172,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ]
   },
   {
@@ -200,8 +185,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ],
    "reference": "reference",
    "anchor": "anchor_mixture",
@@ -211,8 +195,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ]
   },
   {
@@ -225,8 +208,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ],
    "reference": "reference",
    "anchor": "anchor_mixture",
@@ -236,8 +218,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ]
   },
   {
@@ -250,8 +231,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ],
    "reference": "reference",
    "anchor": "anchor_mixture",
@@ -261,8 +241,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ]
   },
   {
@@ -274,7 +253,8 @@
     "anchor_mixture",
     "convtasnet",
     "sepformer",
-    "tfgridnet"
+    "tfgridnet",
+    "vespa"
    ],
    "reference": "reference",
    "anchor": "anchor_mixture",
@@ -283,7 +263,8 @@
     "anchor_mixture",
     "convtasnet",
     "sepformer",
-    "tfgridnet"
+    "tfgridnet",
+    "vespa"
    ]
   },
   {
@@ -295,7 +276,8 @@
     "anchor_mixture",
     "convtasnet",
     "sepformer",
-    "tfgridnet"
+    "tfgridnet",
+    "vespa"
    ],
    "reference": "reference",
    "anchor": "anchor_mixture",
@@ -304,7 +286,8 @@
     "anchor_mixture",
     "convtasnet",
     "sepformer",
-    "tfgridnet"
+    "tfgridnet",
+    "vespa"
    ]
   },
   {
@@ -316,7 +299,8 @@
     "anchor_mixture",
     "convtasnet",
     "sepformer",
-    "tfgridnet"
+    "tfgridnet",
+    "vespa"
    ],
    "reference": "reference",
    "anchor": "anchor_mixture",
@@ -325,7 +309,8 @@
     "anchor_mixture",
     "convtasnet",
     "sepformer",
-    "tfgridnet"
+    "tfgridnet",
+    "vespa"
    ]
   },
   {
@@ -338,8 +323,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ],
    "reference": "reference",
    "anchor": "anchor_mixture",
@@ -349,8 +333,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ]
   },
   {
@@ -363,8 +346,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ],
    "reference": "reference",
    "anchor": "anchor_mixture",
@@ -374,8 +356,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ]
   },
   {
@@ -388,8 +369,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ],
    "reference": "reference",
    "anchor": "anchor_mixture",
@@ -399,8 +379,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ]
   },
   {
@@ -413,8 +392,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ],
    "reference": "reference",
    "anchor": "anchor_mixture",
@@ -424,8 +402,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ]
   },
   {
@@ -438,8 +415,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ],
    "reference": "reference",
    "anchor": "anchor_mixture",
@@ -449,8 +425,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ]
   },
   {
@@ -463,8 +438,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ],
    "reference": "reference",
    "anchor": "anchor_mixture",
@@ -474,8 +448,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ]
   },
   {
@@ -488,8 +461,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ],
    "reference": "reference",
    "anchor": "anchor_mixture",
@@ -499,8 +471,7 @@
     "convtasnet",
     "sepformer",
     "tfgridnet",
-    "vespa",
-    "vespa_1024"
+    "vespa"
    ]
   }
  ]
